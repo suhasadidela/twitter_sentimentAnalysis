@@ -14,9 +14,9 @@
 This project builds an automated sentiment analysis pipeline for Twitter data. Using the **Sentiment140 dataset** (1.6M tweets), it classifies tweets as **Positive** or **Negative** using Natural Language Processing and three ML classifiers.
 
 **Team:**
+- **Suhas Adidela**
 - Prashanth Javaji
 - Vivek Reddy D
-- **Suhas A**
 
 ---
 
