@@ -5,7 +5,7 @@
 ![sklearn](https://img.shields.io/badge/scikit--learn-ML-orange)
 ![Best Model](https://img.shields.io/badge/Best%20Model-Logistic%20Regression-brightgreen)
 
-> **AI Mini Project** — NLP-based sentiment classification of tweets using TF-IDF and three machine learning classifiers.
+> **Bachelor's Project** — NLP-based sentiment classification of tweets using TF-IDF and three machine learning classifiers.
 
 ---
 
@@ -16,7 +16,7 @@ This project builds an automated sentiment analysis pipeline for Twitter data. U
 **Team:**
 - Prashanth Javaji
 - Vivek Reddy D
-- **Suhas A** *(that's you!)*
+- **Suhas A**
 
 ---
 
@@ -64,6 +64,61 @@ This project builds an automated sentiment analysis pipeline for Twitter data. U
 | Category | Tools |
 |---|---|
 | Language | Python |
+| NLP | NLTK (WordNet, PorterStemmer, RegexpTokenizer) |
+| ML | scikit-learn (Logistic Regression, LinearSVC, BernoulliNB) |
+| Feature Extraction | TF-IDF Vectorizer |
+| Visualization | Matplotlib, Seaborn, WordCloud |
+| Environment | Google Colab |
+
+---
+
+## 🚀 Run Locally
+
+```bash
+# 1. Clone the repo
+git clone https://github.com/suhasadidela/twitter_sentimentAnalysis.git
+cd twitter_sentimentAnalysis
+
+# 2. Install dependencies
+pip install nltk scikit-learn pandas numpy matplotlib seaborn wordcloud
+
+# 3. Download the dataset
+# https://www.kaggle.com/datasets/kazanova/sentiment140
+# Place as Project_Data.csv in the same folder
+
+# 4. Open the notebook
+jupyter notebook "twitter sentiment.ipynb"
+```
+
+---
+
+## 📁 Repository Structure
+
+```
+├── twitter sentiment.ipynb                        # Full analysis notebook
+├── twitter_sentiment_analysis_presentation.pptx  # Project presentation
+├── twitter_sentiment_analysis_report.pdf         # Project report
+└── README.md
+```
+
+---
+
+## 👥 Contributors
+
+| Name | Role |
+|---|---|
+| **Suhas A** ([@suhasadidela](https://github.com/suhasadidela)) | ML pipeline & model evaluation |
+| Prashanth Javaji | Data preprocessing & NLP |
+| Vivek Reddy D | Literature survey & visualization |
+
+---
+
+## 🔮 Future Work
+
+- Extend to multi-class sentiment (neutral, mixed)
+- Use transformer-based models (BERT, RoBERTa)
+- Real-time tweet streaming and classification
+- Topic-specific sentiment dashboards
 | NLP | NLTK (WordNet, PorterStemmer, RegexpTokenizer) |
 | ML | scikit-learn (Logistic Regression, LinearSVC, BernoulliNB) |
 | Feature Extraction | TF-IDF Vectorizer |
